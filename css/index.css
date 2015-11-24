@@ -1,0 +1,293 @@
+.index ul li,.portfolio ul li{
+  display: inline;
+}
+.grid_12{
+  width: 960px !important;
+  margin: 0px;
+  overflow: hidden;
+}
+body{
+  background: grey;
+}
+
+/* header starts here */
+header{
+  background-color: #608428;
+}
+header h1,.container h3,.footer h2{
+  color: #e8e8e8 !important;
+  text-shadow: 1px 2px 5px black;
+}
+header h1{
+  font-size: 50px;
+  height: 50px;
+  margin: 0px;
+}
+/* Menu bar starts here */
+.nav-bar{
+  padding-top: 10px;
+  margin: 30px 0px 0px;
+  text-align: right;
+}
+.nav-bar li{
+  display: inline;
+  padding-right: 12px;
+  margin-left: 30px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #EBE7C6;
+    font-size: 20px;
+}
+.nav-bar a:hover{
+    color: white;
+}
+/* Menu bar starts here */
+/* header ends here */
+
+/* Hero element starts here */
+.container{
+  background-image: url(../img/food.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+}
+.container h1,.container h3{
+  text-align: center;
+  letter-spacing: 1px;
+}
+.container h1{
+  color: white;
+  font-size: 40px;
+  margin: 300px 0px 0px 0px;
+}
+.container h3{
+  font-size: 30px;
+}
+/* Hero element ends here */
+
+/* Services starts here */
+.index hr{
+  margin: 0px !important;
+}
+.services{
+  background: white;
+  height: 210px;
+}
+.services ul li {
+  margin: 20px 10px;
+  color: #222;
+  text-align: center;
+}
+.services_step_1,.services_step_2,.services_step_3,.services_step_4{
+  height: 83px;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+}
+.services_step_1{
+  background-image: url(../img/steps_sprite.png);
+  background-position: 0 -134px;
+}
+.services_step_2{
+  background-image: url(../img/steps_sprite.png);
+  background-position: 0 -267px;
+}
+.services_step_3{
+  background-image: url(../img/steps_sprite.png);
+  background-position: 0 -400px;
+}
+.services_step_4{
+  background-image: url(../img/steps_sprite.png);
+  background-position: 0 -533px;
+}
+.title{
+  font-size: 18px;
+  font-weight: 700;
+  margin: 80px 0 10px;
+}
+.description{
+  font-size: 15px;
+  color: #222;
+}
+/* Services ends here */
+
+/* Application Download links start here */
+.download{
+  color: #444;
+  background: #f7f7f7;
+}
+.download img{
+  margin-top: 20px;
+}
+.download_link{
+  text-align: center;
+  margin: 20px 0px 0px;
+}
+.download_link p{
+  font-size: 15px;
+  color: #444;
+}
+.download_links{
+  float: right;
+  margin-right: 90px;
+}
+/* Application Download links end here */
+
+/* Careers and Newsletter starts here */
+.join_us p{
+  font-size: 15px;
+  color: #444;
+}
+.join_us{
+  margin: 0px;
+}
+.join_us{
+  background: white;
+}
+.join_us h1{
+  margin-top: 10px;
+  color: #f75d34;
+}
+.download img{
+  padding-left: 20px;
+}
+date{
+  color: #444;
+  font-size: 10px;
+}
+/* Careers and Newsletter ends here */
+
+/* Footer starts here */
+.footer{
+  padding-top: 20px;
+  background: #232222;
+}
+.footer h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.countries{
+  width: 27px;
+  height: 22px;
+  padding: 10px;
+  color: white;
+}
+.countries_list ul li{
+  margin: 0px;
+}
+.follow{
+  margin:10px;
+}
+.follow a{
+  float: left;
+  margin: 0px;
+}
+.follow h4{
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 0px;
+}
+.footer p{
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+}
+.right_flaot{
+  float: right;
+  margin-right: 0px;
+  margin-top: 20px;
+}
+
+/* Footer ends here */
+/* index page ends here */
+
+/*Portfolio css starts*/
+.portfolio h1,portfolio h2,portfolio h3,portfolio h4,portfolio h5{
+  color:#222222;
+
+}
+.portfolio{
+  font-family: sans-serif;
+}
+
+/* Employee section starts here */
+.employee{
+  background: #f7f7f7;
+  padding: 20px 0px 30px 0px;
+}
+.pic img{
+  border-radius: 100px;
+  width: 100px;
+}
+.pic1{
+  margin-left: 5px;
+}
+.pic2{
+  margin-left: 25px;
+}
+.employee h3{
+  color: #222;
+  text-shadow: 1px 2px 5px white;
+}
+.employee h3{
+  text-align: center;
+  margin: 20px;
+}
+.pic p{
+  padding: 10px 5px 10px 5px;
+  font-size: 14x;
+}
+.pic_data{
+  background-color: white;
+  border-radius: 10px;
+  color: #444;
+  margin: 0px;
+  box-shadow: 2px 1px 1px grey;
+}
+.portfolio hr{
+  margin-bottom: 0px;
+}
+/* Employee section ends here */
+
+/* careers section starts here */
+.we{
+  background: white;
+  padding: 20px 0px 30px 0px;
+}
+.we img{
+  width: 10px;
+  border-radius: 25px;
+  margin: 0px;
+}
+.we p{
+  font-size: 14px;
+  color: #444;
+}
+/* careers section ends here */
+
+/* Top section starts here */
+.top{
+background-color: white;
+}
+.top h3{
+  padding: 30px 0px 0px 0px;
+  font-size: 30px;
+  color: #222;
+  background: ;
+}
+.top h6{
+  padding-top: 10px;
+}
+.top h6,.top h3{
+  text-align: center;
+  color: #222;
+  text-shadow: 1px 2px 5px white;
+}
+.top img{
+  height:200px;
+  width:300px;
+  padding: 30px 0px 0px 0px;
+}
+/* Top section ends here */
+/* Portfolio ends here */
